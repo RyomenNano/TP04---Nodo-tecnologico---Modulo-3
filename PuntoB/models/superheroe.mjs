@@ -1,7 +1,5 @@
-import fs from 'fs';
-
 //Clase para representar un heroe
-class Superheroe {
+export default class Superheroe {
     constructor(id, nombreSuperheroe, nombreReal, nombreSociedad, edad, planetaOrigen, debilidad, poder, habilidadEspecial, aliado, enemigo){
         this.id=id;
         this.nombreSuperheroe=nombreSuperheroe;
@@ -16,5 +14,4 @@ class Superheroe {
         this.enemigo=enemigo;
     }    
 }
-
 
