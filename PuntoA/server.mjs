@@ -17,13 +17,13 @@ app.use(express.json());
     // Ruta para obtener todas las tareas
 app.get('/tareas', listarTareasController);
     // Ruta para obtener todas las tareas completadas
-app.get('/tareas', listarTareasCompletadasController);
+app.get('/tareas/completadas', listarTareasCompletadasController);
     // Ruta para crear nueva tarea
-app.get('/tareas', crearTareaController);
+app.post('/tarea', crearTareaController);
     // Ruta para marcar como tarea completada
-app.get('/tareas', completarTareaController);
+app.put('/tareas/:id/completar', completarTareaController);
     // Ruta para eliminar tarea
-app.get('/tareas', eliminarTareaController);
+app.get('/tareas/:id', eliminarTareaController);
 
 // Iniciar el server
 app.listen(PORT, ()=>{

@@ -1,7 +1,7 @@
 // Función para renderizar una lista de tareas en formato JSON
 export function renderizarListaTareas(tareas){
     // Formatea el array de tareas en formato JSON con indentación
-    return JSON.stringify(tareas,nul, 2);
+    return JSON.stringify(tareas,null, 2);
 }
 
 

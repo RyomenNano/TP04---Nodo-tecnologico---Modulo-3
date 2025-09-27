@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "Tarea 1",
+    "descripcion": "Descripción de tarea 1",
+    "completado": true
+  },
+  {
+    "id": 2,
+    "titulo": "Tarea 2",
+    "descripcion": "Descripción de tarea 2",
+    "completado": true
+  },
+  {
+    "id": 3,
+    "titulo": "Tarea 3",
+    "descripcion": "Descripción de tarea 3",
+    "completado": true
+  },
+  {
+    "id": 4,
+    "titulo": "Tarea 4",
+    "descripcion": "Descripción de tarea 4",
+    "completado": false
+  },
+  {
+    "id": 5,
+    "titulo": "Tarea 5",
+    "descripcion": "Descripción de tarea 5",
+    "completado": false
+  },
+  {
+    "id": 6,
+    "titulo": "Tarea 6",
+    "descripcion": "Descripción de tarea 6",
+    "completado": true
+  },
+  {
+    "id": 7,
+    "titulo": "Tarea 7",
+    "descripcion": "Descripción de tarea 7",
+    "completado": false
+  }
+]
