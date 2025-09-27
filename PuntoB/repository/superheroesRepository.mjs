@@ -19,7 +19,7 @@ export default class SuperheroesFileRepository extends SuperheroesDataSource {
 
 
     obtenerTodos(){
-        const data= fs.readFileSync(filePath, 'utf-8');
+        const data= fs.readFileSync(this.filePath, 'utf-8');
         return JSON.parse(data); // Convierte el archivo JSON en un array de objetos JS
     }   
 }
